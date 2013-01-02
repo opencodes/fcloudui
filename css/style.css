@@ -1,0 +1,42 @@
+body{
+	background-color:#cccccc;
+}
+.right-first-div{
+	padding:2px 5px;
+}
+.right-second-div{
+    padding:2px 5px;
+    color:#ffffff;
+}
+.right-third-div{
+    text-align: right;
+    width: 75px;
+}
+a,a:hover, h5 {
+	color:#333333;
+	text-decoration:none;
+}
+h5{
+	margin: 2px 0;
+}
+.location{
+	color:#4A9924;
+}
+.clearfix{
+	border-bottom:1px solid #999999;
+}
+.brand{
+	text-align:center;
+}
+.list-div{
+	height:80px;
+}
+.list-div{
+	background-color:#eeeeee;
+	margin:5px 0;
+	padding:5px;
+}
+/*Detail Page*/
+.details-div{
+    background-color:#eeeeee;
+}
