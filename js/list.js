@@ -18,7 +18,7 @@ function fetchList(){
    		                   '<div class="right-third-div pull-right">'+
    		                   '<button class="btn btn-mini btn-primary" data-loading-text="loading..."  type="button">'+
    		                   'Trace Me'+
-   		                   '</button>'+
+   		                   '</button><br>'+
    		                   '<i class="icon-film"></i>'+                
    		                   '</div>'+
    		        		   '</div>';
