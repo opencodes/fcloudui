@@ -3,7 +3,7 @@ function fetchList(){
              dataType: 'jsonp',
              data: "publickey=0",                      
              jsonp: 'callback',
-             url: 'http://localhost:1987/fcloud/?callback=?',                     
+             url: 'http://66.96.204.38:1987/fcloud/?callback=?',                     
              success: function(data) {
                var items = "";
    			  $.each(data.items, function(key, val) {
@@ -35,7 +35,7 @@ $(document).ready(function(){
             dataType: 'jsonp',
             data: "profile_id="+profile_id,                      
             jsonp: 'callback',
-            url: 'http://localhost:1987/fcloud/user/?callback=?',                     
+            url: 'http://66.96.204.38:1987/fcloud/user/?callback=?',                     
             success: function(data) {
               var items = "";
   			  $.each(data.items, function(key, val) {
