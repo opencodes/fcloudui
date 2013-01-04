@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <style type="text/css">
       body {
-        padding-top: 60px;
+        padding-top: 40px;
       }
     </style>
     <link rel="stylesheet" href="css/bootstrap-responsive.css">
@@ -17,31 +17,29 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <!-- Fav and touch icons -->
     <link href="ico/apple-touch-icon-144-precomposed.png" sizes="144x144" rel="apple-touch-icon-precomposed">
     <link href="ico/apple-touch-icon-114-precomposed.png" sizes="114x114" rel="apple-touch-icon-precomposed">
       <link href="ico/apple-touch-icon-72-precomposed.png" sizes="72x72" rel="apple-touch-icon-precomposed">
-                    <link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
-                                   <link href="img/favicon.ico" rel="shortcut icon">
+      <link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
+      <link href="img/favicon.ico" rel="shortcut icon">
   </head>
-
-  <body onLoad="fetchList();">
-
+  <body >
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          
-          <a href="index.html" class="brand">Friend Cloud</a>
-          <a href="search.html"> <span class="btn btn-inverse pull-right">Find Friends</span> </a>   
+          <div class='back pull-left' ><a href="href="javascript: history.go(-1)"><img alt="" src="img/back.png" width='32px;' height='32px;'></a></div>         
+          <div class='title pull-left'><a href="index.html" class="brand">FriendCloud</a></div>
+          <div class='search pull-right'><a href="search.html"><img alt="" src="img/search.png" width='32px;' height='32px;'></a></div>   
         </div>
       </div>
     </div>
-    
     <div class="container">
-
       <!-- Example row of columns -->
-      <div class="row" id='list' style='display:block;'>
+      <div class="row" id='welcome-screen' style='display:block;'>
+          <img alt="" src="img/home.jpg" id='home-screen'>
+      </div>
+      <div class="row" id='list' style='display:none;'>
 	      <div class='loader'>
 	      Loading Friend list..........<br>
 	      <img alt="" src="img/ajax-loading.gif" >
@@ -53,11 +51,7 @@
           <img alt="" src="img/ajax-loading.gif" >
           </div>
       </div>
-
-
-
     </div> <!-- /container -->
-
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
